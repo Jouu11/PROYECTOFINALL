@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final-tienda",
+  "version": "1.0.0",
+  "description": "Mi tienda online con MongoDB y Google Auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "google-auth-library": "^9.15.1",
+    "mongoose": "^8.23.0"
+  }
+}
